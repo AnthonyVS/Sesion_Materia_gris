@@ -1,0 +1,13 @@
+class EmployeeProcedimientos {
+    constructor(private employee: Employee) {}
+    
+    getEmployeeSalary(id: number): number {
+    // Do some logic to get the employee info
+    return 1000;
+    }
+    
+    getHighestSalary(): number {
+    // Do some logic to get the info
+    return 100000;
+    }
+}

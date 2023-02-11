@@ -1,21 +1,19 @@
 interface Animal {
   eat(): void;
   sleep(): void;
-  swim(): void;
+}
+
+interface Bird extends Animal {
   fly(): void;
 }
 
-class Bird implements Animal {
+class Bird implements Bird {
   eat(): void {
     console.log('The bird is eating');
   }
 
   sleep(): void {
     console.log('The bird is sleeping');
-  }
-
-  swim(): void {
-    throw new Error('Birds cannot swim');
   }
 
   fly(): void {

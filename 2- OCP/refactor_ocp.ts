@@ -1,4 +1,4 @@
-class Rectangle {
+/*class Rectangle {
   width: number;
   height: number;
 
@@ -31,5 +31,5 @@ class AreaCalculator {
 
     return total;
   }
-}
+}*/
 
